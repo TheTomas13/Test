@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><MSR-ISSUE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PAG_ASAM_ISSUE_SCHEMA_v3.0.xsd">
+    <SHORT-NAME>fm_220983.xml</SHORT-NAME>
+    <CATEGORY>SINGLE_ISSUE</CATEGORY>
+    <COMPANY-DATAS>
+        <COMPANY-DATA>
+            <LONG-NAME>Porsche AG</LONG-NAME>
+            <SHORT-NAME>PAG</SHORT-NAME>
+        </COMPANY-DATA>
+    </COMPANY-DATAS>
+    <ADMIN-DATA>
+        <DOC-REVISIONS>
+            <DOC-REVISION>
+                <TEAM-MEMBER-REF ID-REF=""/>
+                <DATE>2020/09/14T12:35:15</DATE>
+            </DOC-REVISION>
+        </DOC-REVISIONS>
+    </ADMIN-DATA>
+    <ISSUES>
+        <ISSUE>
+            <LONG-NAME>[EES3OPSQS-325] Test-Ticket SWQS</LONG-NAME>
+            <SHORT-NAME>[EES3OPSQS-325] Test-Ticket SWQS</SHORT-NAME>
+            <CATEGORY>PROBLEM_REPORT</CATEGORY>
+            <ISSUE-DESC>
+                <P>Test Schnittstelle</P>
+            </ISSUE-DESC>
+            <COMPANY-ISSUE-INFOS>
+                <COMPANY-ISSUE-INFO>
+                    <COMPANY-DATA-REF>PAG</COMPANY-DATA-REF>
+                    <ISSUE-ID>220983</ISSUE-ID>
+                    <TEAM-MEMBER-REF ID-REF=""/>
+                    <TRANSACTION-ID>PAG-220983-20200914123515</TRANSACTION-ID>
+                </COMPANY-ISSUE-INFO>
+                <COMPANY-ISSUE-INFO>
+                    <COMPANY-DATA-REF>Bosch</COMPANY-DATA-REF>
+                    <ISSUE-ID>220983</ISSUE-ID>
+                </COMPANY-ISSUE-INFO>
+            </COMPANY-ISSUE-INFOS>
+            <ISSUE-PROPERTIES>
+                <ISSUE-CURRENT-STATE>
+                    <DATE>2020/09/14T14:42:15</DATE>
+                    <TEAM-MEMBER-REF ID-REF=""/>
+                    <ISSUE-STATE>REQUESTED</ISSUE-STATE>
+                </ISSUE-CURRENT-STATE>
+                <ISSUE-PRIORITY>HIGH</ISSUE-PRIORITY>
+                <REPRODUCIBILITY>SPORADIC</REPRODUCIBILITY>
+                <DELIVERY-MILESTONES>
+                    <DELIVERY-MILESTONE>
+                        <SHORT-LABEL>VR_Macan2_04</SHORT-LABEL>
+                        <CATEGORY>ESTIMATED</CATEGORY>
+                        <COMPANY-DATA-REF>BOSCH</COMPANY-DATA-REF>
+                    </DELIVERY-MILESTONE>
+                </DELIVERY-MILESTONES>
+            </ISSUE-PROPERTIES>
+            <ISSUE-RELATED-DOCUMENTS>
+                <ISSUE-RELATED-DOCUMENT>
+                    <XDOC>
+                        <LONG-NAME-1>testData.txt</LONG-NAME-1>
+                        <URL>./cr_220983/testData.txt</URL>
+                    </XDOC>
+                </ISSUE-RELATED-DOCUMENT>
+            </ISSUE-RELATED-DOCUMENTS>
+            <ISSUE-ENVIRONMENT>
+                <ENGINEERING-OBJECTS>
+                    <ENGINEERING-OBJECT>
+                        <SHORT-LABEL>ATF_H</SHORT-LABEL>
+                        <CATEGORY>COMPONENT</CATEGORY>
+                    </ENGINEERING-OBJECT>
+                    <ENGINEERING-OBJECT>
+                        <SHORT-LABEL>ECU</SHORT-LABEL>
+                        <CATEGORY>HARDWARE</CATEGORY>
+                        <REVISION-LABEL>01</REVISION-LABEL>
+                    </ENGINEERING-OBJECT>
+                    <ENGINEERING-OBJECT>
+                        <SHORT-LABEL>ECU</SHORT-LABEL>
+                        <CATEGORY>SOFTWARE</CATEGORY>
+                        <REVISION-LABEL>01</REVISION-LABEL>
+                    </ENGINEERING-OBJECT>
+                    <ENGINEERING-OBJECT>
+                        <SHORT-LABEL/>
+                        <CATEGORY>GROUP</CATEGORY>
+                    </ENGINEERING-OBJECT>
+                    <ENGINEERING-OBJECT>
+                        <SHORT-LABEL/>
+                        <CATEGORY>SUB_GROUP</CATEGORY>
+                    </ENGINEERING-OBJECT>
+                    <ENGINEERING-OBJECT>
+                        <SHORT-LABEL>Macan NF</SHORT-LABEL>
+                        <CATEGORY>PROJECT</CATEGORY>
+                    </ENGINEERING-OBJECT>
+                    <ENGINEERING-OBJECT>
+                        <SHORT-LABEL/>
+                        <CATEGORY>ISSUE_REPORTER</CATEGORY>
+                    </ENGINEERING-OBJECT>
+                    <ENGINEERING-OBJECT>
+                        <SHORT-LABEL/>
+                        <CATEGORY>EXT_TEST_SYSTEM</CATEGORY>
+                    </ENGINEERING-OBJECT>
+                    <ENGINEERING-OBJECT>
+                        <SHORT-LABEL/>
+                        <CATEGORY>EXT_TEST_ID</CATEGORY>
+                    </ENGINEERING-OBJECT>
+                    <ENGINEERING-OBJECT>
+                        <SHORT-LABEL/>
+                        <CATEGORY>EXT_TEST_STATUS</CATEGORY>
+                    </ENGINEERING-OBJECT>
+                </ENGINEERING-OBJECTS>
+            </ISSUE-ENVIRONMENT>
+            <ISSUE-SOLUTIONS>
+                <ISSUE-SOLUTION>
+                    <CATEGORY>PROPOSAL</CATEGORY>
+                    <ISSUE-SOLUTION-DESC>
+                        <P></P>
+                    </ISSUE-SOLUTION-DESC>
+                </ISSUE-SOLUTION>
+            </ISSUE-SOLUTIONS>
+            <ANNOTATIONS>
+                <ANNOTATION>
+                    <LABEL>BOSCH</LABEL>
+                    <TEAM-MEMBER-REF ID-REF="KHJ2OFO"></TEAM-MEMBER-REF>
+                    <DATE>2020/09/14T14:42:15</DATE>
+                    <ANNOTATION-TEXT>
+                        <P>Khan, Jalal, EAD 14 Sep 2020 14:42:47 
+							BOSCH Status - "ESTIMATED"
+							Bosch have set the status to "ESTIMATED" also Feild "Behebung geplant bis (Release)" is provided.
+							Waiting for Confirmation </P>
+                    </ANNOTATION-TEXT>
+                </ANNOTATION>
+            </ANNOTATIONS>
+        </ISSUE>
+    </ISSUES>
+</MSR-ISSUE>
